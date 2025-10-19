@@ -48,6 +48,13 @@ Calculadora de cadenas con soporte para delimitadores personalizados y reglas de
 - **Validación de entrada** - Manejo de casos especiales y errores
 - **Reglas de negocio** - Implementación de reglas específicas (números negativos, límites)
 
+### Fibonacci
+Implementación optimizada de la secuencia de Fibonacci usando el método de doblado rápido.
+- **Fast Doubling Algorithm** - Algoritmo O(log n) para calcular números de Fibonacci
+- **Optimización matemática** - Uso de propiedades matemáticas para eficiencia
+- **Generación de series** - Construcción eficiente de la serie completa
+- **Programación funcional** - Implementación recursiva elegante
+
 ## 🛠️ Tecnologías
 
 - **TypeScript** - Lenguaje principal
