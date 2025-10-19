@@ -14,6 +14,26 @@ Implementación del clásico ejercicio FizzBuzz utilizando:
 - **Programación Funcional** - Enfoque funcional con funciones puras
 - **TypeScript** - Tipado estático para mayor robustez
 
+### MCD (Máximo Común Divisor)
+Algoritmo recursivo para calcular el máximo común divisor usando el algoritmo de Euclides.
+- **Recursión** - Implementación recursiva elegante
+- **Algoritmo de Euclides** - Método matemático eficiente
+
+### Leap Year (Año Bisiesto)
+Determinación de años bisiestos siguiendo las reglas del calendario gregoriano.
+- **Lógica condicional** - Manejo de múltiples condiciones
+- **Procesamiento de arrays** - Evaluación de múltiples casos
+
+### Palindrome Checker
+Verificador de palíndromos con limpieza de caracteres especiales.
+- **Manipulación de strings** - Limpieza y normalización de texto
+- **Algoritmos de comparación** - Verificación eficiente caracter por caracter
+
+### Fast Power
+Exponenciación rápida mediante algoritmo de exponenciación binaria.
+- **Optimización algorítmica** - Reducción de complejidad temporal
+- **Recursión avanzada** - Divide y vencerás
+
 ## 🛠️ Tecnologías
 
 - **TypeScript** - Lenguaje principal

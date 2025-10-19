@@ -1,7 +1,8 @@
 export const fastPow = (b: number, n: number): number => {
   if (n === 0) return 1;
   if (n % 2 === 1) return b * fastPow(b, n - 1);
-  return fastPow(b * b, n / 2);
+  const result = fastPow(b, n / 2);
+  return result * result;
 };
 
 const main = () => {
@@ -9,31 +10,26 @@ const main = () => {
     {
       base: 2,
       exponent: 10,
-      result: null,
+      result: fastPow(2, 10),
     },
     {
       base: 3,
       exponent: 7,
-      result: null,
+      result: fastPow(3, 7),
     },
     {
       base: 4,
       exponent: 5,
-      result: null,
+      result: fastPow(4, 5),
     },
     {
       base: 2,
       exponent: 1000,
-      result: null,
+      result: fastPow(2, 1000),
     },
   ];
 
-  const results = numbers.map(({ base, exponent }) => ({
-    base,
-    exponent,
-    result: fastPow(base, exponent),
-  }));
-  console.log(results);
+  console.log(numbers);
 };
 
 main();
