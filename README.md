@@ -34,6 +34,20 @@ Exponenciación rápida mediante algoritmo de exponenciación binaria.
 - **Optimización algorítmica** - Reducción de complejidad temporal
 - **Recursión avanzada** - Divide y vencerás
 
+### Fermat Test
+Implementación del test de primalidad de Fermat para verificar si un número es primo.
+- **Teoría de números** - Aplicación del Pequeño Teorema de Fermat
+- **Exponenciación modular** - Algoritmo optimizado para potencias modulares
+- **Tests probabilísticos** - Verificación probabilística de primalidad
+- **Números de Carmichael** - Manejo de casos especiales
+
+### String Calculator
+Calculadora de cadenas con soporte para delimitadores personalizados y reglas de negocio.
+- **Parsing de strings** - Análisis y procesamiento de cadenas complejas
+- **Expresiones regulares** - Uso avanzado de regex para delimitadores
+- **Validación de entrada** - Manejo de casos especiales y errores
+- **Reglas de negocio** - Implementación de reglas específicas (números negativos, límites)
+
 ## 🛠️ Tecnologías
 
 - **TypeScript** - Lenguaje principal
