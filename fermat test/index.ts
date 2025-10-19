@@ -38,6 +38,11 @@ const main = () => {
       k: 5,
       result: fastPrime(100, 5),
     },
+    {
+      n: 561, // Carmichael number
+      k: 10,
+      result: fastPrime(561, 10),
+    }
   ];
   console.log(numbers);
 };
