@@ -55,6 +55,20 @@ Implementación optimizada de la secuencia de Fibonacci usando el método de dob
 - **Generación de series** - Construcción eficiente de la serie completa
 - **Programación funcional** - Implementación recursiva elegante
 
+### Miller Rabin Test
+Test de primalidad probabilístico de Miller-Rabin para verificar números primos de forma eficiente.
+- **Test probabilístico** - Algoritmo probabilístico con alta precisión
+- **Exponenciación modular** - Implementación optimizada de exponenciación modular
+- **Descomposición de números** - Factorización en potencias de 2
+- **Análisis de complejidad** - Algoritmo O(k log³ n) donde k es el número de iteraciones
+
+### Prime Factors
+Factorización de números enteros en sus factores primos utilizando división por tentativa optimizada.
+- **Factorización prima** - Descomposición completa en factores primos
+- **Optimización de divisores** - Salto de números pares para mayor eficiencia
+- **Integración con Miller-Rabin** - Uso del test de primalidad para optimización
+- **Recursión funcional** - Implementación recursiva elegante
+
 ## 🛠️ Tecnologías
 
 - **TypeScript** - Lenguaje principal

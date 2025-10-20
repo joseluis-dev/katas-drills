@@ -1,5 +1,5 @@
 export const expmod = (base: number, exp: number, m: number): number => {
-  if (exp === 0) return 1;
+  if (exp === 0) return 1 % m;
   if (exp % 2 === 0) {
     // **** Causa un desbordamiento potencial ****
     // const result = expmod(base * base, Math.floor(exp / 2), m);
@@ -42,7 +42,17 @@ const main = () => {
       n: 561, // Carmichael number
       k: 10,
       result: fastPrime(561, 10),
-    }
+    },
+    {
+      n: 1105, // Carmichael number
+      k: 10,
+      result: fastPrime(1105, 10),
+    },
+    {
+      n: 1729, // Carmichael number
+      k: 10,
+      result: fastPrime(1729, 10),
+    },
   ];
   console.log(numbers);
 };
